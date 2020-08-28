@@ -1,0 +1,23 @@
+body{
+	background-color: blue;
+}
+
+p{
+	color: yellow; 
+	font-size: 200%
+}
+
+h1{
+	color: yellow;
+	font-size: 300%
+}
+
+a{
+	color: yellow;
+	font-size: 100%
+}
+
+alt{
+	color: gray;
+	font-size: 200%
+}
