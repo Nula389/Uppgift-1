@@ -1,23 +1,39 @@
 body{
-	background-color: blue;
+	background-color: yellow;
 }
 
-p{
-	color: yellow; 
-	font-size: 200%
+p.mig{
+	color: blue;
+	border: 5px solid green;
+}
+
+p.program{
+	color: blue;
+	text-align: center;
+}
+
+p.tankar{
+	color: blue;
+	text-align: right;
 }
 
 h1{
-	color: yellow;
-	font-size: 300%
+	color: blue;
+	font-size: 22px;
+	font-family: arial;
 }
 
-a{
-	color: yellow;
-	font-size: 100%
+h2{
+	color: blue;
+	font-size: 20px;
+	text-align: center;
 }
 
 alt{
 	color: gray;
-	font-size: 200%
+	font-size: 200%;
+}
+
+a{
+	text-decoration: none;
 }
