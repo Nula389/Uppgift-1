@@ -1,0 +1,19 @@
+table,th,td{
+	border: 1px solid black; 
+	border-collapse: collapse;
+	font-family: arial;
+}
+tr:nth-child(3),tr:nth-child(5){
+	background-color:red;
+	color: white;
+}
+tr:nth-child(even){
+	background-color: #DAA520;
+	color: black;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
