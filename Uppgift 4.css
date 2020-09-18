@@ -1,0 +1,52 @@
+body{
+	background-color: yellow;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+p.mig{
+	color: blue;
+	border: 5px solid green;
+	grid-column-start: 1;
+	grid-row: 2;
+}
+
+p.program{
+	color: blue;
+	text-align: center;
+	grid-column-start: 3;
+	grid-row: 3;
+}
+
+p.tankar{
+	color: blue;
+	text-align: right;
+	grid-column-start: 5;
+	grid-row: 4;
+}
+
+h1{
+	color: blue;
+	font-size: 22px;
+	font-family: arial;
+}
+
+h2{
+	color: blue;
+	font-size: 20px;
+	text-align: center;
+	grid-column-start: 3;
+	grid-row: 2;
+}
+
+alt{
+	color: gray;
+	font-size: 200%;
+}
+
+a{
+	text-decoration: none;
+	grid-column-start: 3;
+	grid-row: 4;
+}
