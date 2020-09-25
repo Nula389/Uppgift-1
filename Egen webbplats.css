@@ -1,0 +1,39 @@
+body{
+	background-color: gray;
+}
+
+table,th,td{
+	border: 2px solid black; 
+	font-family: arial;
+}
+
+p.A{
+	color: white;
+	border: 3px solid black;
+	text-align: center;
+}
+
+p.B{
+	color: white;
+	font-size: 22px;
+	font-family: arial;
+	text-decoration: underline;
+}
+
+p.C{
+	color: black;
+	text-align: right;
+}
+
+h1{
+	color: white;
+	font-size: 60px;
+	font-family: arial;
+	text-align: center;
+}
+
+h2{
+	color: black;
+	font-size: 20px;
+	text-align: center;
+}
