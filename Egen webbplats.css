@@ -1,30 +1,71 @@
 body{
-	background-color: gray;
+	background-color: #333;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-areas:
+	"div div div"
+	"header header header"
+	"main main main"
+	"section section section"
+	"footer footer footer"
+}
+
+header{
+	grid-area:header;
+}
+
+footer{
+	grid-area.footer;
 }
 
 table,th,td{
-	border: 2px groove white; 
+	font-size: 33px;
+	border: 1px solid black; 
+	border-collapse: collapse;
 	font-family: arial;
-	font-size: 30px;
 }
 
-p.A{
+tr:nth-child(3),tr:nth-child(5){
+	background-color:black;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: white;
+	color: black;
+}
+
+th{
+	background-color: black;
+	color: white;
+}
+
+ul{
+	font-size: 33px;
+	color: red;
+}
+
+.left{
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+}
+
+.A{
 	color: white;
 	font-size: 32px;
 	border: 3px outset white;
 	text-align: center;
 }
 
-p.B{
+.B{
 	color: white;
 	font-size: 40px;
 	font-family: arial;
-	text-shadow: 2px 2px 5px red;
-}
-
-p.C{
-	color: black;
-	text-align: right;
+	text-shadow: 2px 2px 5px;
 }
 
 h1{
@@ -62,4 +103,11 @@ h2{
 .meny a.aktiv {
   background-color: green;
   color: white;
+}
+
+footer{
+	grid-area:footer;
+	font-size: 25px;
+	text-decoration: none;
+	color:green;
 }
