@@ -2,7 +2,7 @@ body{
 	background-color: #333;
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 0.3fr 1fr 0.4fr 2fr 1fr;
 	grid-template-areas:
 	"div div div"
 	"header header header"
@@ -11,12 +11,24 @@ body{
 	"footer footer footer"
 }
 
+div{
+	grid-area: div;
+}
+
 header{
-	grid-area:header;
+	grid-area: header;
+}
+
+main{
+	grid-area: main;
+}
+
+section{
+	grid-area: section;
 }
 
 footer{
-	grid-area.footer;
+	grid-area: footer;
 }
 
 table,th,td{
@@ -68,6 +80,13 @@ ul{
 	text-shadow: 2px 2px 5px;
 }
 
+.C{
+	color: black;
+	font-size: 30px;
+	font-family: times;
+}
+	
+
 h1{
 	color: white;
 	font-size: 60px;
@@ -106,8 +125,19 @@ h2{
 }
 
 footer{
-	grid-area:footer;
 	font-size: 25px;
 	text-decoration: none;
 	color:green;
+}
+
+a{
+	color:blue;
+	text-decoration: none;
+}
+
+img{
+	width: 580px;
+	height: 450px;
+	border: solid 15px;
+	border-color: #333;
 }
